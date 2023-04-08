@@ -118,7 +118,7 @@ class HomePage extends StatelessWidget {
             children: [
               TextButton(
                 onPressed: () {
-                  context.read<ObjectProvider>().stop;
+                  context.read<ObjectProvider>().stop();
                 },
                 child: const Text('Stop'),
               ),
